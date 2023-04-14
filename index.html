@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            display: flex;
+
+        }
+        table,tr,td{
+            border: 1px solid;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div style="border: 1px solid; padding: 7px;width: 15%;">
+        <form>
+            <label for="name" title="manohar">Enter Name</label><br>
+            <input type="text" id="name" required title="manohar"><br>
+            <label for="password" title="manohar">Enter password</label><br>
+            <input type="password" id="password" title="manohar"><br>
+            <button type="submit" title="manohar">submit</button>
+
+        </form>
+    </div>
+    <form>
+        <fieldset style="width: 20%;">
+            <legend>your details</legend>
+            <lable for="name">Name</lable>
+            <input type="text" id="name"><br><br>
+            <lable for="number">Mobile</lable>
+            <input type="number" id="number"><br><br>
+            <lable for="name">Email</lable>
+            <input type="email" id="email">
+        </fieldset>
+    </form>
+
+
+    <form>
+        <fieldset style="width: 20%;">
+            <legend>delivery address</legend>
+            <label>Address</label>
+            <textarea></textarea><br><br>
+            <label>post code</label>
+            <input type="number"><br><br>
+            <label>country</label>
+            <input type="text">
+
+
+        </fieldset>
+    </form>
+    <form style="width: 30%;">
+        <fieldset>
+            <legend>card details</legend>
+            <fieldset>
+                <legend>card type</legend>
+                <input type="radio" id="visa" name="cardtype">
+                <label for="visa">VISA</label><br>
+                <input type="radio" id="amex" name="cardtype">
+                <label for="amex">AmEx</label><br>
+                <input type="radio" id="mastercard" name="cardtype">
+                <label for="mastercard">Master card</label>
+            </fieldset><br>
+            <label>card number</label>
+            <input type="number"><br><br>
+            <label>security code</label>
+            <input type="number"><br><br>
+            <label>name on card</label>
+            <input type="number" placeholder="Enter name as on card"><br><br>
+            <button type="submit">Buy it</button>
+
+        </fieldset>
+
+    </form>
+
+    <form>
+        <fieldset class="main">
+            <div class="left" style="width: 40%;">
+                <fieldset style="width: 100%;">
+                    <label for="name">Enter name</label><br>
+                    <input type="text" id="name"><br><br>
+                    <label for="password">Enter password</label><br>
+                    <input type="password" id="password"><br><br>
+                    <button type="submit">submit</button><br>
+                </fieldset>
+
+                <fieldset style="width: 100%;">
+                    <label>Hobby:</label><br>
+                    <input type="checkbox">
+                    <label>Football</label><br>
+                    <input type="checkbox">
+                    <label>cricket</label><br>
+                    <input type="checkbox">
+                    <label>Hockey</label>
+                </fieldset>
+            </div>
+            <div style="width: 40%; margin-left: 5%;">
+                <fieldset style="width: 100%;">
+                    <label>Select your Nationality</label><br><br>
+                    <select>
+                        <option>India</option>
+                        <option>Nepal</option>
+                        <option>Usa</option>
+                        <option>Uk</option>
+                    </select>
+                </fieldset>
+
+                <fieldset style="width: 100%;">
+                    <label>select your gender:</label><br>
+                    <input type="radio" id="m" name="gender">
+                    <label for="m">Male</label>
+                    <input type="radio" id="f" name="gender">
+                    <label for="f">Female</label>
+                </fieldset>
+            </div>
+        </fieldset>
+    </form>
+
+
+    <form>
+        <fieldset>
+            <legend>personal Details</legend>
+            <label>saltaion</label>
+            <select>
+                <option>-None-</option>
+                <option>mrs</option>
+                <option>Mr</option>
+            </select><br><br>
+            <label for="name">First Name:</label>
+            <input type="text" id="name"><br><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname"><br><br>
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Male</label><br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email"><br><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob"><br><br>
+            <label>Address:</label><br>
+            <textarea></textarea><br><br>
+            <label for="file">Resume:-</label>
+            <input type="file" id="file"><br><br>
+            <button type="submit">submit</button>
+
+
+
+
+
+        </fieldset>
+    </form>
+
+    
+        
+        <form style="width: 50%;">
+            <fieldset>
+            <table>
+            
+                <caption>fill the form below</caption>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" id="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="pass">password:</label></td>
+                    <td><input type="password" id="pass"></td>
+                </tr>
+                <tr>
+                    <td><label for="feedback">Feedback:</label></td>
+                    <td><textarea type="text" id="feedback"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label >Gender:</label></td>
+                    <td><input type="radio" id="male" name="gender">
+                        <label for="male" >Male</label>
+                        <input type="radio" id="female" name="gender">
+                        <label for="female" >Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label >subjects:</label></td>
+                    <td><input type="checkbox" id="web">
+                    <label for="web">web</label>
+                    <input type="checkbox" id="maths">
+                    <label for="maths">Maths</label>
+                    <input type="checkbox" id="eng">
+                    <label for="eng">English</label>
+                    <input type="checkbox" id="grp">
+                    <label for="grp">Graphics</label>
+                    
+                </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button type="reset">Reset All</button type="submit"><button>Submit Above Details</button></td>
+                </tr>
+            
+            </table></fieldset>
+        </form>
+    
+</body>
+
+</html>
