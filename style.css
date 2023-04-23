@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*----- start css-*/  
+.marquee-container{
+    background-color: #009ED8;
+    height:auto;
+}
+.recentUpdates{
+    margin-left: 50px;
+    color:#ffffff;
+}
+.arrowImage{
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    color: #ffffff;
+}
+marquee{
+    text-align: center;
+}
+
+
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    
+    
+}
+.navbar-container a{
+    text-decoration: none;
+}
+.box2{
+    
+    border-left: 1px solid;
+    border-collapse: collapse;
+    height: 75px;
+    padding: 25px 25px;
+    cursor: pointer;
+    color: #ffffff;
+    
+
+}
+#navbox1{
+    background-color: rgb(216, 70, 17);
+}
+#navbox2{
+    background-color:  rgb(167, 32, 115);
+    margin: 0px;;
+}
+#navbox3{
+    background-color: rgb(106, 86, 133);
+}
+#navbox4{
+    background-color: rgb(26, 10, 165);
+}
+#navbox5{
+    background-color: rgb(0, 110, 255);
+}
+#navbox6{
+    background-color:  rgb(0, 128, 0);
+}
+
+
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    min-width: 150px;
+    background-color: #ffffff;
+    box-shadow: 1px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a{
+    display: block;
+    text-decoration: none;
+    /*padding: 5px 10px;*/
+    height: auto;
+    
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:hover .dropbtn{
+    background-color: rgb(0, 110, 255);
+}
+.dropdown-content a:hover {
+    background-color: rgb(216, 70, 17);
+}
+
+
+.dropdown-navbar-container{
+    display: flex;
+    padding: 0px 10px;
+    justify-content: space-between;
+    height:10px;
+    
+}
+.navbar2{
+    border-left: 1px solid;
+    padding: 0px 7px;
+    height: 20px;
+    margin-top: 0px;
+   
+}
+.agniveer{
+    margin: 0px 2px;
+}
+/*- start see whats happing -*/
+.col-sm-3 img{
+    width:100px;
+}
+.letterbox{
+    height: 100px;
+}
+/*- end see whats happing -*/
+/*-admission start-*/
+.admission{
+   margin-left: 0px;
+
+}
+.admission img{
+    width: 100%;
+}
+/*-admission end-*/
+/*- list start-*/
+/*- list end-*/
+
+
+/*--start testimonials-*/
+.testimonials{
+    border-bottom: 4px solid rgb(0, 110, 255);
+    width: 15%;
+    margin-left: 8%;
+    font-size: 40px;
+    font-weight: 450;
+    margin-bottom: 60px;
+    
+}
+.testomonials-image{
+    width: 90%;
+    height: 40vh;
+}
+/*--end  testimonials-*/
+/*- footer start-*/
+.right-arrow{
+    background-color: black;
+    color: #ffffff;
+    width: 40px;
+    height: 22px;
+}
+/*- footer end-*/
+/*-- about page start--------------------------------------------*/
+.aboutus{
+    margin-bottom: 40px;
+}
+#teamwork{
+width: 150px;
+height: 150px;
+border-radius: 50%;
+background-color: red;
+color: #ffffff;
+margin-right: 25px;
+padding: 50px;
+}
+#moral{
+    width: 150px;
+height: 150px;
+border-radius: 50%;
+background-color:  rgb(167, 32, 115);
+color: #ffffff;
+margin-right: 25px;
+padding: 35px;
+}
+#mutual{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(106, 86, 133);
+    color: #ffffff;
+    margin-right: 25px;
+padding: 50px;
+}
+#respect{
+    width: 150px;
+height: 150px;
+border-radius: 50%;
+background-color: rgb(26, 10, 165);
+color: #ffffff;
+margin-right: 25px;
+padding: 50px;
+}
+#honest{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color:rgb(0, 110, 255);
+    color: #ffffff;
+    margin-right: 25px;
+padding: 50px;
+}
+#dignity{
+    width: 150px;
+height: 150px;
+border-radius: 50%;
+background-color: rgb(0, 128, 0);
+color: #ffffff;
+margin-right: 15px;
+padding: 50px;
+}
+/*-- about page end------------------------------------------------------*/
+/*----department  page start---------------------------------------*/
+.dept-wrapper{
+    margin: 3%;
+}
+.table-dept{
+    width: 90%;
+    margin: 1% 3%;
+    
+    border: 1px solid;
+}
+.table-dept tr,td{
+    border: 1px solid ;
+    text-align: center;
+    padding:  60px 10px;
+}
+.table-dept a{
+    text-decoration: none;
+}
+/*---department page end------------------------------------------*/
